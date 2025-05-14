@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <style>
+        .block{
+            width: 450px;
+            height: 380px;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            margin: -125px 0 0 -125px;
+            background-color:rgb(253, 240, 50);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: yellow; text-align: center;">Создай профиль</h1>
+    <div class="block">
+        <div>
+            <h3>Имя</h3>
+            <input type="text" name="message" id="message" />
+        </div>
+
+        <div>
+             <h3>Дата рождения</h3>
+             <input type="text" name="message" id="message" />
+         </div>
+        <div>
+            <h3>Пароль</h3>
+            <input type="text" name="message" id="message" />
+        </div>
+        <div>
+            <h3>Повторите пароль</h3>
+            <input type="text" name="message" id="message" />
+        </div>
+        <div>    
+                <input type="button" value="Регистрация" onclick="send()" />
+        </div>
+    </div>    
+</body>
+</html>
